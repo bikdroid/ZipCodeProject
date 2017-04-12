@@ -1,0 +1,16 @@
+Design Choices
+
+
+ZipRangeControl(contains main()) : class that implements the essential processNewRange(ZipCodeRange z) function, which helps
+		  	  to process a new range before it affects the final list.
+
+Inputs : rangeinput and rangeinput2 2D arrays in main(), can be modified to add more zip codes.
+
+ZipCode 		: class to store information for a single ZipCode.
+ZipCodeRange 		: class to store a lower and upper ZipCode objects, and implement compare functions.
+
+JUnitTests : JUnit tests for checking each conditions like seperate ranges, overlapping ranges.
+
+Libraries Used : jdk 1.8, junit, hamcrest.
+
+- Bikramjit
